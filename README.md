@@ -5,7 +5,7 @@ Here we use the [Tensorflow](https://www.tensorflow.org/) library to define a de
 [Learn more](https://www.tensorflow.org/guide) about Tensorflow.
 
 We define multiple convolutional layers in our model use pooling to reduce the amount of pixel data. 
-We also use callbacks to call off training when our desired accuracy is achieved. We define a separate class for that.
+We also use callbacks to call off training when our desired accuracy is achieved. We define a separate class for the same.
 Using Convolutons we an improve the accuracy of our model on both the training and the test set. To learn more about convolutions: 
 [Please refer this playlist](https://bit.ly/2UGa7uH).
 Here we will e using the [Fashion_MNIST Data set](https://github.com/zalandoresearch/fashion-mnist).
