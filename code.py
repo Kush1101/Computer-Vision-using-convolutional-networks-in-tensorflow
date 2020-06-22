@@ -3,6 +3,7 @@ import tensorflow as tf
 print(tf.__version__)
 dataset = tf.keras.datasets.fashion_mnist
 
+DESIRED_ACCURACY = 0.99
 class myCallBack(tf.model.callbacks.Callback):
     def on_epoch_end(self, epoch, logs={}):
         if logs.get('acc')>=DESIRED_ACCURACY:
